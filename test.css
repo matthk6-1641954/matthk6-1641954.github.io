@@ -1,0 +1,132 @@
+body{
+	text-align: center;
+	background-image: url("double-bubble-dark.png");
+}
+
+ul{
+	list-style-type:none;
+	padding-left: 0px;
+}
+
+div {
+	background-color: purple;
+	color: gold;
+}
+
+h3{
+	color: gold;
+	font-family: "Passion One", cursive;
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+
+p{
+	font-family: Arial;
+	font-weight: bold;
+}
+
+
+
+a {
+	color: gold;
+	font-size: 24px;
+	font-weight: bold;
+}
+	
+
+
+#Header{
+	border:8px black solid;
+
+	width: 500px;
+
+	/* Centered the item */
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+
+}
+#Header h1{
+	font-size: 60px;
+	font-family: "Passion One", cursive;
+	color: gold;
+	font-weight: bold;
+}
+
+#LeftNav{
+	border:8px black solid;
+	width: 400px;
+
+	/* Centered the item */
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+
+	float:left;
+	padding-bottom: 8px;
+	
+}
+
+#Content{
+	border: 8px black solid;
+
+	width:700px;
+
+	/* Centered the item */
+	margin-left: auto;
+	margin-right: auto;
+
+	margin-bottom: 10px;
+	padding: 15px;
+}
+
+
+#Footer{
+	border: 8px black solid;
+
+	/* Centered the item */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bow{
+	color: gold;
+}
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+​
+div.gallery:hover {
+  border: 1px solid #777;
+}
+​
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+​
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+​
+​
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">fresh air</div>
+</div>
+​
+</body>
+</html>
