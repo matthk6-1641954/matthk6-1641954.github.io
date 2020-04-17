@@ -19,7 +19,21 @@ h3{
 	font-weight: bold;
 	font-size: 40px;
 	margin-bottom: 0px;
+	font-stretch: wider;
 }
+h4{
+	color: gold;
+	font-family:"Times New Roman";
+	font-weight:bold;
+	font-size: 70px;
+}
+h5{
+	border: 10px red;
+	font-stretch: expanded;
+	font-weight: bold;
+	
+}
+
 
 p{
 	font-family: Arial;
@@ -30,12 +44,11 @@ p{
 
 a {
 	color: gold;
-	font-size: 24px;
+	font-size: 25px;
 	font-weight: bold;
+	font-family: verdana;
 }
 	
-
-
 #Header{
 	border:8px black solid;
 
@@ -52,6 +65,7 @@ a {
 	font-family: "Passion One", cursive;
 	color: gold;
 	font-weight: bold;
+	text-align: center;
 }
 
 #LeftNav{
@@ -67,6 +81,20 @@ a {
 	padding-bottom: 8px;
 	
 }
+#RightNav{
+	border:8px yellow;
+	width: 600px;
+
+	/* Centered the item */
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+
+	float:right;
+	padding-bottom: 8px;
+}
+
+
 
 #Content{
 	border: 8px black solid;
@@ -89,6 +117,11 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 }
+h6{
+	border: 10px gold;
+	background-color: goldenrod;
+	font-weight: 100px;
+}
 
 #bow{
 	color: gold;
@@ -96,37 +129,3 @@ a {
 
 
 
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-​
-div.gallery:hover {
-  border: 1px solid #777;
-}
-​
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-​
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-</style>
-</head>
-<body>
-​
-​
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">fresh air</div>
-</div>
-​
-</body>
-</html>
