@@ -28,6 +28,7 @@ h4{
 	font-size: 70px;
 }
 h5{
+	columns: auto;
 	border: 10px red;
 	font-stretch: expanded;
 	font-weight: bold;
@@ -116,11 +117,6 @@ a {
 	/* Centered the item */
 	margin-left: auto;
 	margin-right: auto;
-}
-h6{
-	border: 10px gold;
-	background-color: goldenrod;
-	font-weight: 100px;
 }
 
 #bow{
