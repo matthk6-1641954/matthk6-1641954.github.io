@@ -1,0 +1,24 @@
+#Header h1{
+	font-size: 150px;
+	font-family: "Passion One";
+	color:purple;
+	font-weight: bold;
+	text-align: center;
+}
+
+ul{
+    font-size: 150px;
+    font-family:"Passion One";
+    color:gold;
+    font-weight: bold;
+}
+
+#Footer{
+    border: 8px black solid;
+
+	/* Centered the item */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+   
